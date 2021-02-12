@@ -1,0 +1,63 @@
+html, body {
+    width: 100%;
+    height: auto;
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.jumbotron {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(to right, #BF984E, #F2DAAC, #F2E6D0)
+}
+.jumbotron .text h1{
+    font-size: 3.5em;
+}
+.jumbotron .text h1 span{
+    font-size: 2em;
+}
+
+.jumbotron .jumbotron-img img {
+    height: 10%;
+    width: 50%;
+    border: solid 3px #BF984E;
+    
+}
+
+nav {
+    background-color: #BF984E;
+}
+
+.services .card {
+    background-color: lightgray;
+    z-index: 1000;
+    border: white 20px solid;
+}
+
+
+
+.services .card::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: black 6px solid;
+    transform:translate(40px, 20px);
+    z-index: -1000;
+    border-top: none;
+    border-left: none;
+    
+    
+}
+
+.carousel-inner img {
+    width: 100%;
+    border: solid 10px #261501;
+}
+
+footer{
+    background-image: linear-gradient(#BF984E, #F2DAAC, #F2E6D0)
+    
+}
+

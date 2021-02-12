@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgb(233, 218, 135), white);
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+/* main {
+    height: auto;
+    width: auto;
+} */
+@media screen and (max-width:1000px) {
+    .carousel .carousel-inner {
+    width: 95%;
+    }
+    }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.navbar {
+    /* background-color: black; */
+    color: black;
+    margin-bottom: 3px;
+    position: fixed;
+    top: -1em;
+
+}
+.navbar a {
+    color: black;
+    font-weight: bold;
+}
+
+
+.navbar img {
+    height: 3em;
+    width: 3em;
+    margin:0 1em 0 1em;
+}
+
+
+.jumbotron {
+    /* background-color: black; */ 
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 15em; 
+    padding-top: 10em;
+      
+   
+}
+
+
+.carousel .carousel-inner {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 2em;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    
+  }
+
+
+
+.container h1 {
+   
+    font-size: 3em;
+    margin: auto;
+
+} 
+.container h3 {
+    margin: auto;
+}
+
+.footer-fluid {
+    width: 100%;
+    background-color: black;
+    color: honeydew;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+   
+    
+    
+}
+
+.footer-fluid .container a{
+    padding:0 1.5em 0 1.5em;
+    color: honeydew;
+    margin: auto;
+    
+}
+
+
