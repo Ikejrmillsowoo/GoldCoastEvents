@@ -20,7 +20,7 @@ html, body {
 }
 
 .jumbotron .jumbotron-img img {
-    height: 10%;
+    height: auto;
     width: 50%;
     border: solid 3px #BF984E;
     
@@ -52,7 +52,6 @@ nav {
 }
 
 .carousel-inner img {
-    width: 100%;
     border: solid 10px #261501;
 }
 
