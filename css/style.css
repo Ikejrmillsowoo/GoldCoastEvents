@@ -4,16 +4,17 @@ html, body {
     font-family: 'Lobster', cursive;
     font-weight: 500;
     font-size: larger;
+    margin: auto;
 }
 
 .jumbotron {
-    height: auto;
+    height: 60%;
     width: 100%;
     margin: 0;
     background-image: linear-gradient(to right, #BF984E, #F2DAAC, #F2E6D0)
 }
 .jumbotron .text h1{
-    font-size: 3.5em;
+    font-size: 3.5rem;
 }
 .jumbotron .text h1 span{
     font-size: 2em;
@@ -28,6 +29,13 @@ html, body {
 
 nav {
     background-color: #BF984E;
+}
+
+
+
+.carousel-inner img {
+    border: solid 10px #261501;
+    border-radius: 10px;
 }
 
 .services .card {
@@ -46,14 +54,39 @@ nav {
     transform:translate(40px, 20px);
     z-index: -1000;
     border-top: none;
-    border-left: none;
-    
-    
+    border-left: none;    
 }
 
-.carousel-inner img {
-    border: solid 10px #261501;
+#parallax {
+    background-image: url(../images/20191027_165544.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .7;
+    z-index: -1000;
 }
+
+#parallax .card {
+    z-index: 1000;
+    background-color: none;
+    font-weight: 300;
+    color: black;
+}
+
+
+#parallax .card-text {
+    background-color: #BF984E;
+    text-align: center;
+    color: black;
+    z-index: 1000;
+    font-weight: 500;
+    background-color: lightgoldenrodyellow;
+    opacity: .8;
+
+}
+
 
 footer{
     background-image: linear-gradient(#BF984E, #F2DAAC, #F2E6D0)
